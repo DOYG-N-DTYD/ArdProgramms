@@ -1,0 +1,67 @@
+.communication {
+    padding: 10px;
+  }
+  
+  .start {
+    text-align:center;
+    border:solid;
+    width: 200px;
+    height: 50px;
+  }
+  
+  .info_1 {
+    border:solid;
+    width: 200px;
+  }
+  
+  .info_2 {
+    border:solid;
+    width: 200px;
+  }
+  
+  .midContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .gameField {
+    padding: 15px;
+    border:solid;
+  }
+  
+  .chat {
+    width: 200px;
+    height: 200px;
+    border:solid;
+    position:relative;
+  }
+  .send{
+    width:40px;
+    height:25px;
+    position: absolute; 
+    bottom: 0;
+    right: 0px;
+  }
+  .lineOfControls {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .button {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #0f8b8d;
+    border-radius: 5px;
+    border: solid;
+  }
+  .type-text{
+    position:absolute; bottom:0;
+    width: 200px;
+    height:25px;
+  }
+  span{
+  opacity: 0.3;  
+  }

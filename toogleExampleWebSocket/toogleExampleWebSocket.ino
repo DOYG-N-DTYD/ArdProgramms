@@ -103,6 +103,10 @@ const char index_html[] PROGMEM = R"rawliteral(
   </div>
 <script>
   var gateway = `ws://${window.location.hostname}/ws`;
+  
+  console.log("var gateway = `ws://${window.location.hostname}/ws`;");
+  console.log(gateway);
+  
   var websocket;
   window.addEventListener('load', onLoad);
   function initWebSocket() {
